@@ -1,0 +1,23 @@
+.main-footer-area{
+    background-color:rgb(66, 66, 66);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+li, h6{
+    list-style-type:none;
+    padding-top: 7px;
+    color: white;
+}
+
+.bottom-footer-area{
+    background-color: #B38E5D;
+    color:white;
+    font-size: 13px;
+    padding: 3px
+}
+
+.datos_plantel{
+    color: white;
+    font-size: 14px;
+}

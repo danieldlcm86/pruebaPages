@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------
+# NavBar
+--------------------------------------------------------------*/
+/*Colores
+#D81220
+#9D2449
+#B38E5D
+#621132
+*/
+
+#navbarNav {
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    font-weight: 500;
+}
+
+.container-fluid, #nav {
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+    padding-right: 0px;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: background-color 0.5s;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B38E5D;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #B38E5D
+}
+
+.dropdown-item {
+    color: #9D2449;
+}
+
+.title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
